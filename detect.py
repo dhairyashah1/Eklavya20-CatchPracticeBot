@@ -1,3 +1,4 @@
+Reference-https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/
 # USAGE
 # python detect.py --images images
 
