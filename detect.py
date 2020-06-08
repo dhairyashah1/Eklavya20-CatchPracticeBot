@@ -60,7 +60,6 @@ for imagePath in imagePaths:
 			else:
 				y1=y11
 			z1=1# Arbitarily assigning this value since we don't have the required depth data for now.
-			print(x1,"  ",y1,"  ",z1)
 			i+=1
 	cv2.circle(image,(x1,y1),10,(255,0,0),3)
 	# apply non-maxima suppression to the bounding boxes using a
@@ -81,10 +80,9 @@ for imagePath in imagePaths:
 	# show the output images
 	j+=1
 	row,col,ch=image.shape
-	print(row,"			r",)
 	#cv2.imshow("Before NMS", orig)
 	cv2.imshow("After NMS", image)
-	print(image.shape)
+	print("image shape- ",image.shape)
 	projection_matrix = np.array([      #considering this projection matrix since we don't have the actual projection
 		#matrix of the available camera for now.
 		[589.3667059626796, 0.0, 320.0],
@@ -98,7 +96,7 @@ for imagePath in imagePaths:
 	# we follow the equation->[manipulated pixel co-ordinates matrix]=[projection_matrix]*[image co-ordinates matrix]
 	# Following procedure is done to obtain the 3d image co-ordinates of the selected point for throwing projectile.
 	Xc1 = inverse[0][0] * x0 + inverse[0][1] * y0 + inverse[0][2] * z0
-	print(Xc1)#
+	print(Xc1)
 	Yc1 = inverse[1][0] * x0 + inverse[1][1] * y0 + inverse[1][2] * z0
 	print(Yc1)
 	Zc1 = inverse[2][0] * x0 + inverse[2][1] * y0 + inverse[2][2] * z0
@@ -107,3 +105,4 @@ for imagePath in imagePaths:
 	#so that our launch mechanism aligns itself perfectly with the selected point of target.
 
 	cv2.waitKey(0)
+#Executing command->python detect.py --images images 
