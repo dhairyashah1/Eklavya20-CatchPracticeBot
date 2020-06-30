@@ -59,32 +59,36 @@ Refer this [documentation]()
 
 ### Prerequisites
 
-<!--* See [SETUP.md](https://link/to/setup.md) if there are plenty of instructions-->
+* See [SETUP.md](https://link/to/setup.md) if there are plenty of instructions
 * List of softwares with version tested on 
+
+Download and run *Python3* file for suitable OS from the link
 ```sh
-How to install them
+https://www.python.org/downloads/
 ```
+______________________________________________________________________________________
 
-* **ESP-IDF v4.0 and above**
-
-  You can visit the [ESP-IDF Programmming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#installation-step-by-step) for the installation steps.
-  
-* See if you can make requirements.txt  
+Download and run *pip3* for suitable OS
+Refer the below link for further instructions
 ```sh
-pip install -r "requirements.txt"
+https://pip.pypa.io/en/stable/installing/
 ```
 
 ### Installation
-1. Clone the repo
+* Clone the repo
 ```sh
 git clone https://github.com/dhairyashah1/Eklavya20-CatchPracticeBot
 ```
-
+ 
+* Run the following command to install required packages  
+```sh
+pip3 install -r "requirements.txt"
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 ```
-How to run the driver code
+python3 detect.py -i images
 ```
 
 

@@ -1,4 +1,4 @@
-Reference-https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/
+#Reference-https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/
 # USAGE
 # python detect.py --images images
 
@@ -11,7 +11,7 @@ import argparse
 import imutils
 import cv2
 import random
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -33,10 +33,6 @@ for imagePath in imagePaths:
 	image = cv2.imread(imagePath)
 	image = imutils.resize(image, width=min(400, image.shape[1]))
 	orig = image.copy()
-
-
-
-
 
 	# detect people in the image
 	(rects, weights) = hog.detectMultiScale(image, winStride=(4, 4),
