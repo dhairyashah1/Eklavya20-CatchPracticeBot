@@ -76,7 +76,7 @@ for imagePath in imagePaths:
 	# show the output images
 	j+=1
 	row,col,ch=image.shape
-	#cv2.imshow("Before NMS", orig)
+	cv2.imshow("Before NMS", orig)
 	cv2.imshow("After NMS", image)
 	print("image shape- ",image.shape)
 	projection_matrix = np.array([      #considering this projection matrix since we don't have the actual projection

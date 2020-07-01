@@ -25,7 +25,7 @@ Detecting Target Person assissting Catch Practice using OpenCV
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)  -->
 
 Aim and Description of project.  
-Refer this [documentation]()
+Refer this [documentation](/docs/report.pdf)
 
 ### Tech Stack
 
@@ -66,7 +66,6 @@ Download and run *Python3* file for suitable OS from the link
 ```sh
 https://www.python.org/downloads/
 ```
-______________________________________________________________________________________
 
 Download and run *pip3* for suitable OS
 Refer the below link for further instructions
@@ -87,7 +86,7 @@ pip3 install -r "requirements.txt"
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-```
+```sh
 python3 detect.py -i images
 ```
 
@@ -101,12 +100,13 @@ python3 detect.py -i images
 | Use  |  Table  |
 |:----:|:-------:| 
 | For  | Comparison|-->
-[Result Screenshots](./docs/results/output_img.jpeg)
+![**Output Image**](https://github.com/dhairyashah1/Eklavya20-CatchPracticeBot/blob/master/docs/results/output_img.jpeg)
+
 - Green Rectangle:
 > Shows Detected Person
 
 - Red Rectangles:
-> Area within which launch will be executed
+> Area within the reach of the person wherein launch is to be executed
 
 - Blue Point Circle:
 > Selected random point in specified area for launch 
