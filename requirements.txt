@@ -1,11 +1,19 @@
-click==7.1.2
-Flask==1.1.2
-itsdangerous==1.1.0
-Jinja2==2.11.2
-MarkupSafe==1.1.1
-six==1.15.0
-Werkzeug==1.0.1
-imutils==0.3.1
-numpy
-opencv-python
-python>=3.7.0
+argparse	1.4.0	
+certifi	2020.4.5.1	
+chardet	3.0.4	
+cycler	0.10.0	
+idna	2.9	
+imutils	0.5.3	
+kiwisolver	1.2.0	
+matplotlib	3.2.1	
+numpy	1.18.4	
+opencv-python	4.2.0.34	
+panda	0.3.1
+pip	20.1.1	
+prettytable	0.7.2	
+pyparsing	2.4.7	
+python-dateutil	2.8.1	
+requests	2.23.0	
+setuptools	47.1.1	
+six	1.15.0	
+urllib3	1.25.9	

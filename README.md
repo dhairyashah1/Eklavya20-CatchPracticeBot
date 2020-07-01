@@ -39,13 +39,13 @@ Refer this [documentation]()
 
 ### File Structure
     .
-    ├── detect.py               # Explain the function preformed by this file in short
+    ├── detect.py               # Python code used for final extraction of target co-ordinates 
     ├── Coordinate_OpenCV       # Finding World and Camera Coordinates  
     ├── PycharmProjects/OpenCV  # Required OpenCV basics
     ├── docs                    # Documentation files (alternatively `doc`)
     │   ├── report.pdf          # Project report
     │   └── results             # Folder containing screenshots, gifs, videos of results
-    ├── Pictures                # Practice Files to OpenCV
+    ├── Pictures                # Practice Files used for OpenCV
     ├── images                  # Final result test images
     ├── ...
     ├── LICENSE
@@ -123,7 +123,7 @@ python3 detect.py -i images
 
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
-* Common errors while configuring the project
+* Use wheel files if you are having trouble while installing python packages(Generally happens with windows 8 or earlier operating systems)
 
 
 <!-- CONTRIBUTORS -->
