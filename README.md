@@ -59,7 +59,7 @@ Refer this [documentation]()
 
 ### Prerequisites
 
-* See [SETUP.md](https://link/to/setup.md) if there are plenty of instructions
+<!--* See [SETUP.md](https://link/to/setup.md) if there are plenty of instructions-->
 * List of softwares with version tested on 
 
 Download and run *Python3* file for suitable OS from the link
@@ -94,13 +94,22 @@ python3 detect.py -i images
 
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.  
+<!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.  
 [**result screenshots**](https://result.png)  
 ![**result gif or video**](https://result.gif)  
 
 | Use  |  Table  |
 |:----:|:-------:| 
-| For  | Comparison|
+| For  | Comparison|-->
+[Result Screenshots](./docs/results/output_img.jpeg)
+- Green Rectangle:
+> Shows Detected Person
+
+- Red Rectangles:
+> Area within which launch will be executed
+
+- Blue Point Circle:
+> Selected random point in specified area for launch 
 
 
 <!-- FUTURE WORK 
