@@ -136,10 +136,10 @@ python3 detect.py -i images
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
 ## Acknowledgements and Resources
-* [SRA VJTI](http://sra.vjti.info/) Eklavya 2020  
-* Referred [this](https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/) for achieving Person Detection  
-* Referred [this](https://www.learnopencv.com/geometry-of-image-formation/) for achieving Co-ordinate Extraction 
-* Referred [this](https://opencv.org/) for achieving OpenCV Basics
+* [SRA VJTI](http://sra.vjti.info/)   
+* [Person Detection](https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/)    
+* [Co-ordinate Extraction](https://www.learnopencv.com/geometry-of-image-formation/)  
+* [OpenCV Basics](https://opencv.org/)  
 ...
 
 
