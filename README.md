@@ -13,7 +13,6 @@ Detecting Target Person assissting Catch Practice using OpenCV
   * [Installation](#installation)
 * [Usage](#usage)
 * [Results and Demo](#results-and-demo)
-<!--* [Future Work](#future-work)--> 
 * [Troubleshooting](#troubleshooting)
 * [Contributors](#contributors)
 * [Acknowledgements and Resources](#acknowledgements-and-resources)
@@ -100,6 +99,7 @@ python3 detect.py -i images
 | Use  |  Table  |
 |:----:|:-------:| 
 | For  | Comparison|-->
+Find detailed output video [here](https://drive.google.com/file/d/1ZnwVQwgYeoZAbnDY7f9WHLtdugXmvtFh/view?usp=sharing)
 ![**Output Image**](https://github.com/dhairyashah1/Eklavya20-CatchPracticeBot/blob/master/docs/results/output_img.jpeg)
 
 - Green Rectangle:
@@ -140,7 +140,7 @@ python3 detect.py -i images
 * [Person Detection](https://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/)    
 * [Co-ordinate Extraction](https://www.learnopencv.com/geometry-of-image-formation/)  
 * [OpenCV Basics](https://opencv.org/)  
-...
+
 
 
 <!-- LICENSE 
