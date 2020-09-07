@@ -133,6 +133,13 @@ python3 detect.py -i images
 * [Atharva Alshi](https://github.com/atharva1608)
 * [Mayuresh Mane](https://github.com/Mayuresh351)
 
+<!-- MENTORS -->
+## Mentors
+* [Omkar Sargar](https://github.com/OSSome01)
+* [Saharsh Jain](https://github.com/saharshleo)
+* [Preeti Jain](https://github.com/preetijain7681)
+* [Shantanu Pande](https://github.com/shan515)
+
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
 ## Acknowledgements and Resources
