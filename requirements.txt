@@ -14,6 +14,6 @@ prettytable==0.7.2
 pyparsing==2.4.7	
 python-dateutil==2.8.1	
 requests==2.23.0	
-setuptools==47.1.1	
+setuptools==65.5.1	
 six==1.15.0	
 urllib3==1.25.9	
